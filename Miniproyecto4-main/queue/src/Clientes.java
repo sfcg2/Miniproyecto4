@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Clientes {
     
     Scanner scanner = new Scanner(System.in);
+
     private String nombre;
     private String plato;
     private String bebida;
@@ -38,7 +39,7 @@ public class Clientes {
 
     @Override
     public String toString() {
-        return "Clientes \nnombre: " + nombre + ", plato: " + plato + ", bebida: " + bebida;
+        return " \nNOMBRE: " + nombre + "\nPLATO: " + plato + "\nBEBIDA: " + bebida;
     }
 
     
