@@ -20,13 +20,12 @@ public class App {
                     case 1:
                         System.out.println("REGISTRO DE CLIENTES\n");
                         cola.enqueue();
+                        
                         limpiarPantalla();
                         esperarSegundos(300);
                         break;
                     case 2:
                         cola.atenderCliente();
-                        
-                        
                         break;
                     default:
                         break;

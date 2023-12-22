@@ -21,14 +21,14 @@ public class Cola{
         
         if(ListaClientes.isEmpty()){
 
-            System.out.println("La cola esta vacia, no hay clientes para atender.");
+            System.out.println("La cola esta vacia, no hay clientes para atender.\n");
 
         }if(!ListaClientes.isEmpty()){
 
             for(int i=0; i<ListaClientes.size();i++){
 
                 System.out.println("Cliente Atendido ");
-                System.out.println(ListaClientes.poll());
+                System.out.println(ListaClientes.poll() + "\n");
                 
     
             }
